@@ -17,8 +17,8 @@ export default function Home() {
         <div className="max-w-2xl mx-auto">
           <div className="rounded-2xl overflow-hidden shadow-lg mb-8 flex justify-center bg-white">
             <img
-              src="/uploads/image_2.png"
-              alt="Caleb's Farm"
+              src="/uploads/image_3.png"
+              alt="Caleb's Farm - I Love Farming!"
               width={486}
               height={528}
               style={{ borderRadius: '1rem', maxWidth: '100%', height: 'auto', objectFit: 'cover', boxShadow: '0 4px 20px 0 rgba(0,0,0,0.05)'}}
@@ -27,7 +27,7 @@ export default function Home() {
           {/* Farmer Tour Packages Section */}
           <div className="bg-yellow-50 rounded-lg p-8 shadow-md border-2 border-yellow-300 mb-8">
             <h2 className="text-2xl font-bold text-yellow-800 mb-3">Farmer Tour Packages</h2>
-            <p className="text-gray-800 mb-4 text-lg">Join Caleb as he gives you a tour of the farm—he’ll come with you and “smash” with you along your ride, showing all his favorite spots and tricks!</p>
+            <p className="text-gray-800 mb-4 text-lg">Join Caleb as he gives you a tour of the farm—he'll come with you and "smash" with you along your ride, showing all his favorite spots and tricks!</p>
             <ul className="space-y-3 text-left">
               <li><span className="font-semibold text-yellow-700">Early Smash</span> — <span className="font-bold">$40</span></li>
               <li><span className="font-semibold text-yellow-700">Fat Smash</span> — <span className="font-bold">$80</span></li>
@@ -66,14 +66,14 @@ export default function Home() {
           {/* Caleb's Dad Section */}
           <div className="bg-green-50 rounded-lg p-6 shadow mb-8 border border-green-100">
             <h3 className="text-2xl font-semibold text-green-700 mb-2">With a Little Help from Dad</h3>
-            <p className="text-gray-700 text-lg">Caleb’s cute dad helped him create the farm and brings all the best ideas. Every barn, bale, and birthday bash has a little dad’s magic in it!</p>
+            <p className="text-gray-700 text-lg">Caleb's cute dad helped him create the farm and brings all the best ideas. Every barn, bale, and birthday bash has a little dad's magic in it!</p>
           </div>
         </div>
         {/* Secret Diddy Parties Section */}
         <div className="w-full flex justify-center">
           <div className="bg-black rounded-xl shadow-lg max-w-2xl w-full p-8 my-10">
             <h3 className="text-2xl font-bold text-white mb-2">The Secret Diddy Parties</h3>
-            <p className="text-white/90 text-lg">Beneath Caleb’s Farm, secret diddy parties happen just for those who know where to look. Fun, laughter, and surprise await below the fields!</p>
+            <p className="text-white/90 text-lg">Beneath Caleb's Farm, secret diddy parties happen just for those who know where to look. Fun, laughter, and surprise await below the fields!</p>
           </div>
         </div>
       </div>
