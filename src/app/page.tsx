@@ -24,6 +24,7 @@ export default function Home() {
               style={{ borderRadius: '1rem', maxWidth: '100%', height: 'auto', objectFit: 'cover', boxShadow: '0 4px 20px 0 rgba(0,0,0,0.05)'}}
             />
           </div>
+
           {/* Farmer Tour Packages Section */}
           <div className="bg-yellow-50 rounded-lg p-8 shadow-md border-2 border-yellow-300 mb-8">
             <h2 className="text-2xl font-bold text-yellow-800 mb-3">Farmer Tour Packages</h2>
@@ -34,6 +35,7 @@ export default function Home() {
               <li><span className="font-semibold text-yellow-700">Big Daddy Gobble</span> — <span className="font-bold">$700</span></li>
             </ul>
           </div>
+
           {/* Birthday Farm Gifts Section */}
           <div className="bg-white rounded-lg p-8 shadow-md border-2 border-green-200 mb-6">
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
@@ -42,33 +44,35 @@ export default function Home() {
             <div className="text-left">
               <h3 className="text-xl font-semibold text-green-600 mb-3">🚜 Featured Birthday Gifts:</h3>
               <ul className="list-disc list-inside space-y-2 text-gray-700">
-                <li>
-                  <strong>Premium Tractor Toy:</strong> Realistic green farm tractor with working wheels and authentic details
-                </li>
-                <li>
-                  <strong>Farm Animal Set:</strong> Collection of barnyard friends including cows, pigs, chickens, and sheep
-                </li>
-                <li>
-                  <strong>Mini Hay Bales:</strong> Soft plush hay bales perfect for imaginative farm play
-                </li>
-                <li>
-                  <strong>Farmer's Hat:</strong> Just like Caleb's! Authentic straw hat sized for little farmers
-                </li>
-                <li>
-                  <strong>Seed Planting Kit:</strong> Real seeds and pots to start their own mini garden
-                </li>
+                <li><strong>Premium Tractor Toy:</strong> Realistic green farm tractor with working wheels and authentic details</li>
+                <li><strong>Farm Animal Set:</strong> Collection of barnyard friends including cows, pigs, chickens, and sheep</li>
+                <li><strong>Mini Hay Bales:</strong> Soft plush hay bales perfect for imaginative farm play</li>
+                <li><strong>Farmer's Hat:</strong> Just like Caleb's! Authentic straw hat sized for little farmers</li>
+                <li><strong>Seed Planting Kit:</strong> Real seeds and pots to start their own mini garden</li>
               </ul>
             </div>
-            <p className="text-green-600 font-semibold mt-6 text-center">
-              🎉 Special birthday packages available with personalized farm tours! 🎉
-            </p>
+            <p className="text-green-600 font-semibold mt-6 text-center">🎉 Special birthday packages available with personalized farm tours! 🎉</p>
           </div>
+
           {/* Caleb's Dad Section */}
           <div className="bg-green-50 rounded-lg p-6 shadow mb-8 border border-green-100">
             <h3 className="text-2xl font-semibold text-green-700 mb-2">With a Little Help from Dad</h3>
             <p className="text-gray-700 text-lg">Caleb's cute dad helped him create the farm and brings all the best ideas. Every barn, bale, and birthday bash has a little dad's magic in it!</p>
           </div>
+
+          {/* NEW Funny Farmer Caleb Section */}
+          <div className="bg-orange-50 rounded-lg p-8 shadow-md border-2 border-orange-200 mb-8">
+            <h3 className="text-2xl font-bold text-orange-700 mb-3">Funny Things About Farmer Caleb</h3>
+            <ul className="list-disc list-inside space-y-3 text-left text-gray-700">
+              <li>Caleb once tried to race a chicken. The chicken won. Twice.</li>
+              <li>He names every single hay bale. His favorite bale is named "Greg." Don’t touch Greg.</li>
+              <li>Caleb insists his tractor goes faster when he plays dramatic music.</li>
+              <li>One time he yelled "YEEHAW" so loud the goats filed a noise complaint.</li>
+              <li>He claims he can speak fluent cow. The cows disagree.</li>
+            </ul>
+          </div>
         </div>
+
         {/* Secret Diddy Parties Section */}
         <div className="w-full flex justify-center">
           <div className="bg-black rounded-xl shadow-lg max-w-2xl w-full p-8 my-10">
